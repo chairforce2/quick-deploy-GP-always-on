@@ -16,3 +16,10 @@ point fwadmin.chairforce2.com to the new fw admin interface IP
 point vpn.chairforce2.com to the new untrust interface IP
 
 commit everything and test
+
+
+****recommended post-deployment steps*************
+
+1. lock down the admin interface based on source IP
+2. create UN/PWD options for admin and vpn users
+3. build out security policies as desired
